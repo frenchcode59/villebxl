@@ -1,0 +1,20 @@
+$blackclair:rgb(16, 6, 34);
+$rougebelg:rgb(146, 1, 1);
+
+@import "./utils/fonctions";
+@import "./utils/mixine";
+@import "./utils/variables";
+// mettre les fichier dans l'ordre en commencant par utils 
+
+
+@import "./base/fonts";
+@import "./composant/boutons";
+@import "./layout/footer";
+@import "./layout/form";
+@import "./layout/header";
+@import "./layout/menu-burger";
+@import "./pages/accueil";
+@import "./pages/apropos";
+@import "./pages/contact";
+@import "./themes/mesdeux.scss";
+@import "./vendors/normalize.css";
